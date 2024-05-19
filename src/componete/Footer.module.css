@@ -1,0 +1,10 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+}
+.Footer li{
+    list-style: none;
+}
+.Footer a{
+    color: aliceblue;
+}

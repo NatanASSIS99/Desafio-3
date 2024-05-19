@@ -1,0 +1,27 @@
+.Apresentacao{
+    margin-left: 150px;
+}
+.Apresentacao p{
+ margin-left: 80px;
+}
+.Apresentacao button{
+    margin-left: 120px;
+    margin-top: 20px;
+    border-left: auto;
+    
+   
+}
+
+.Apresentacao button{
+    
+background: linear-gradient(90deg, rgba(19, 173, 199, 1) 0%, rgba(105, 120, 209, 1) 50%, rgba(148, 93, 214, 1) 100%);
+border-radius: 30px;
+border: 0px;
+}
+.Apresentacao button:hover{
+    color:aliceblue;
+    background-color: #d3d3d3;
+    transform: translateY(-7px);
+    filter: drop-shadow(0px 4px 4px rgba(0,0, 0.25, 0.25));
+    box-shadow: 5px 5px 10px #d3d3d3
+}

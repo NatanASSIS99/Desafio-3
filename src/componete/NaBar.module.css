@@ -1,0 +1,21 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+}
+.Nav li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin:10px
+}
+
+.Nav ul{
+    display: flex;
+}
+.Nav a{
+    color: aliceblue;
+    margin: 5px;
+    margin-right: 50px;
+}
