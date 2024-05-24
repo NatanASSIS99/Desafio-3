@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div >
             <ul className={ Style.Footer} >
-                <li> Meu Contato:  98 - 98149-3608</li>
+                <li>Meu Contato:  98 - 98149-3608</li>
                 <li>Email: natandosssantosassis@gmail.com</li>
             
                 <a href='https://github.com'><FaGithubSquare size={30} /></a>  
