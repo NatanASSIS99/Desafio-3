@@ -3,7 +3,7 @@ import styles from './Apresentacao.module.css';
 
 function Apresentacao() {
     const [text, setText] = useState('');
-    const toRotate = ['Natan Assis', 'Desenvolvedor Front End!!!! Te convido a conhecer meu trabalho!!!!'];
+    const toRotate = ['Natan Assis', 'Desenvolvedor Front End!!!!'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setDeleting] = useState(false);
     const period = 200; // O tempo de espera para deletar completamente o texto
