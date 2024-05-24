@@ -3,7 +3,7 @@ import styles from './Apresentacao.module.css';
 
 function Apresentacao() {
     const [text, setText] = useState('');
-    const toRotate = ['Natan Assis', 'Desenvolvedor Front End!!!!'];
+    const toRotate = ['Natan Assis', 'Desenvolvedor Front End!!!! Te convido a conhecer meu trabalho!!!!'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setDeleting] = useState(false);
     const period = 200; // O tempo de espera para deletar completamente o texto
@@ -28,10 +28,10 @@ function Apresentacao() {
             setDelta(period);
         } else if (isDeleting && updatedText === '') {
             setDeleting(false);
-            setDelta(100); // Volta para o intervalo de digitação
+            setDelta(100); 
             setLoop(loop + 1);
         } else {
-            setDelta(100); // Intervalo padrão de digitação/deleção
+            setDelta(100); 
         }
     };
 
