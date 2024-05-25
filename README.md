@@ -15,6 +15,10 @@ Tecnologias usadas:
     ReactBootstrap
     Reac-Icons/FA
 
+Modificações/Aprimoramentos:
+
+    Atualização de cards de projetos, com inserção de novos. 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
