@@ -9,23 +9,7 @@ function Card() {
       <h1>Projetos</h1>
       <img src={Lpdnc} alt="Descrição da imagem" /> 
 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
       <p>
         Desenvolvimento de Landing Page 
         para o curso de Formação em Tecnologia
