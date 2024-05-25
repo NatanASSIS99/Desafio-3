@@ -6,8 +6,8 @@ function Apresentacao() {
     const toRotate = ['Natan Assis', 'Desenvolvedor Front End!!!!'];
     const [loop, setLoop] = useState(0);
     const [isDeleting, setDeleting] = useState(false);
-    const period = 200; // O tempo de espera para deletar completamente o texto
-    const [delta, setDelta] = useState(100); // Intervalo de tempo para a digitação/deleção
+    const period = 200;
+    const [delta, setDelta] = useState(100); 
 
     useEffect(() => {
         let ticker = setInterval(() => {
